@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "crud de alumnos y maestros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Juan Ignacio Aldama Flores",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "mongoose": "^5.1.1",
+    "multiparty": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
